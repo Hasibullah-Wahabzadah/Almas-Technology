@@ -1,0 +1,13 @@
+
+
+This project consists of React and Tailwind Css 
+
+
+.______..______..______..______..______..______.
+
+Tools for launching: 
+
+---------- install ---------- 
+
+1: > npm install 
+2: > npm install 
