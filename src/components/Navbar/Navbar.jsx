@@ -47,8 +47,8 @@ const DropdownLinks = [
                                                       
 const Navbar = ({ handleOrderPopup }) => {                                    
   return (
-                                                                                     // sticky top-0 bottom-0
-    <div className="navbar bg-white dark:bg-gray-900 dark:text-white duration-200 z-40 relative">   
+                                                                                     // sticky top-0 bottom-0 relative
+    <div className="navbar bg-white dark:bg-gray-900 dark:text-white duration-200 z-40  sticky top-0">   
       <div className="py-4">
         <div className="container flex justify-between items-center">
           {/* Logo and Links section */}

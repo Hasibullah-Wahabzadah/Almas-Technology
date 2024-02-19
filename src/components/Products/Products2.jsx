@@ -7,7 +7,7 @@ import ProductsData from './ProductsData'
 import Img1 from '../../assets/product/iphone/16-1.png'
 import Img2 from '../../assets/product/iphone/16-2.png'
 import Img3 from '../../assets/product/iphone/14.png'
-import Img4 from '../../assets/product/iphone/15.png'
+import Img4 from '../../assets/product/iphone/15-1.png'
 import Img5 from '../../assets/product/iphone/17.png'
 import Img6 from '../../assets/product/iphone/18.png'
 import Img7 from '../../assets/product/iphone/19.png'
@@ -117,7 +117,7 @@ const Products2 = () => {
             {/* Header section */}
             <Header
             title={"Our Products"}
-            subtitle={"Apple"}
+            subtitle={"---< Apple >---"}
             />
             {/* Body section */}
             <ProductsData data={ProductData}/>

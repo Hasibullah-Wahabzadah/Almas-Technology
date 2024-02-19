@@ -14,9 +14,11 @@ const ProductsData = ({ data }) => {
                 className="h-[230px] w-[230px] object-cover rounded-xl hero-bg-color  "
               />
               {/* hover button */}
-              <div className="hidden absolute top-1/2 -translate-y-1/2 left-1/2  -translate-x-1/2 h-full w-full text-center group-hover:flex
-             justify-center items-center duration-200 group-hover:backdrop-blur-sm">
-              <Button
+              <div
+                className="hidden absolute top-1/2 -translate-y-1/2 left-1/2  -translate-x-1/2 h-full w-full text-center group-hover:flex
+             justify-center items-center duration-200 group-hover:backdrop-blur-sm"
+              >
+                <Button
                   text={"shop"}
                   bgColor={"bg-primary"}
                   textColor={"text-white"}
@@ -24,12 +26,14 @@ const ProductsData = ({ data }) => {
               </div>
             </div>
             <div className="hero-bg-color rounded-lg dark:text-white text-black px-2 mt-2 hover:scale-105 duration-300 leading-7">
-              <h2 className="font-bold hover:scale-105 duration-300">{data.title}</h2>
-              <h2 className="font-bold hover:scale-105 duration-300">{data.price}</h2>
-              
+              <h2 className="font-bold hover:scale-105 duration-300">
+                {data.title}
+              </h2>
+              <h2 className="font-bold hover:scale-105 duration-300">
+                {data.price}
+              </h2>
             </div>
-
-            </div>
+          </div>
         ))}
       </div>
     </div>

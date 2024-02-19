@@ -117,7 +117,7 @@ const Products = () => {
             {/* Header section */}
             <Header
             title={"Our Products"}
-            subtitle={"Samsung"}
+            subtitle={" ---< Samsung >---"}
             />
             {/* Body section */}
             <ProductsData data={ProductData}/>

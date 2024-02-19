@@ -10,6 +10,9 @@ import Banner from './components/Banner/Banner'
 import Banner2 from './components/Banner/Banner2'
 import Products from './components/Products/Products';
 import Products2 from './components/Products/Products2';
+import Blogs from './components/Blogs/Blogs';
+import Brands from './components/Brands/Brands';
+import Footer from './components/Footer/Footer';
 
 
 
@@ -28,6 +31,9 @@ const App = () => {
     <Products />
     <Banner2 />
     <Products2 />
+    <Blogs/>
+    <Brands/>
+    <Footer/>
   </div>
   );
 }
