@@ -113,7 +113,7 @@ const ProductData3 =[
 const Products = () => {
   return (
     <div>
-        <div className="container">
+        <div className="container" id='shop'>
             {/* Header section */}
             <Header
             title={"Our Products"}

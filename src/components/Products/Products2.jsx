@@ -61,7 +61,7 @@ const ProductData = [
     id: 2,
     img: Img6,
     title: "ipad pro M2",
-    price: "$1099",
+    price: "$1,099",
     
   },
   {
@@ -91,7 +91,7 @@ const ProductData3 =[
     id: 2,
     img: Img10,
     title: "MackBook M2 pro",
-    price: "$294,990",
+    price: "$2,094",
     
   },
   {

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import './Navbars.css'
 import { IoMdSearch } from "react-icons/io";
 import { FaCaretDown, FaCartShopping } from "react-icons/fa6";
 
@@ -23,7 +24,7 @@ const MenuLinks = [
   {
     id: 4,
     name: "Blogs",
-    link: "/#blog",
+    link: "/#blogs",
   },
 ];
 

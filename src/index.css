@@ -8,6 +8,9 @@ body{
     box-sizing: content-box;
 }
 
+
+  
+
 @layer components {
     .search-bar{
         @apply w-0 group-hover:w-[300px] transition-all duration-300
@@ -22,4 +25,8 @@ body{
         @apply bg-gradient-to-t from-gray-300/80 to-gray-100
         dark:from-gray-900 dark:to-gray-800 dark:text-white
     }
+
+    .form-input {
+        @apply rounded-full border border-gray-300 dark:border-gray-500 dark:bg-gray-800 px-2 py-1 mb-4;
+      }
 }

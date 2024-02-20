@@ -43,7 +43,7 @@ const Banner = () => {
 
             {/* third col */}
             <div className="flex flex-col justify-center gap-2 p-5 sm:p-8">
-              <p  className="font-bold text-5xl sm:text-5xl">{data.title2}</p>
+              <p  className="font-bold text-5xl sm:text-4xl">{data.title2}</p>
               <p className=" text-2xl sm:text-3xl md:text-2xl font-bold">
                 {data.title3}
               </p>

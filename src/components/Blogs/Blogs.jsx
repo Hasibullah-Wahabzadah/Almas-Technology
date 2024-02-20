@@ -35,7 +35,7 @@ const BlogData = [
 const Blogs = () => {
   return (
     <div className="my-12">
-      <div className="container">
+      <div className="container " id="blogs">
         {/* Header section */}
         <Header title="Recent News" subtitle={"Stay up-to-data whith latest happenings"} />
 
