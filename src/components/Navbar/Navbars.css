@@ -1,0 +1,10 @@
+@font-face {
+    font-family: Yellowtail;
+    src: url(../../assets/font/Yellowtail/Yellowtail-Regular.ttf),
+  ;
+    
+}
+
+.Yellowtail{
+    font-family: "Yellowtail";
+}

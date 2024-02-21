@@ -6,7 +6,7 @@ import Button from "../Shared/Button";
 
 const Category = () => {
   return (
-    <div className="py-8 ">
+    <div className="py-8 " id="shop">
       <div className="container">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
           {/* first col */}

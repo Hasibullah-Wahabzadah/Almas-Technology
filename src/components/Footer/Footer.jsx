@@ -1,5 +1,6 @@
 import React from "react";
-import { FaMobileAlt } from "react-icons/fa";
+import '../Navbar/Navbars.css'
+import { FaAddressBook, FaAddressCard, FaFileMedicalAlt, FaMobileAlt, FaVoicemail } from "react-icons/fa";
 import {
   FaFacebook,
   FaInstagram,
@@ -29,25 +30,29 @@ const FooterLinks = [
 
 const Footer = () => {
   return (
-    <div className="dark:bg-gray-950">
+    <div className="dark:bg-gray-950" id="footer">
       <div className="container">
         <div className="grid md:grid-cols-3 pt-5">
           {/* company details */}
           <div className="py-8 px-4">
             <a
               href="#"
-              className="text-primary font-semibold tracking-widest text-2xl uppercase sm:text-3xl
+              className="text-primary font-semibold tracking-widest text-2xl Yellowtail sm:text-4xl
 "
             >
-              ALMAS TECHNOLOGY
+              Almas Technology
+
             </a>
             <p className="text-gray-600 dark:text-white/70  lg:pr-24 pt-3">
               Explore high-quality mobile and computer products in our online
               store. Enjoy a convenient shopping experience with special offers
               and discounts
             </p>
-            <p className="text-gray-500 mt-4 text-xl">
+            <p className="text-gray-500 mt-4 text-2xl sm:text-3xl Yellowtail">
               Developer Hasibullah Wahabzadah
+              <div className="flex items-center mt-2">
+                  <a href="/">hasibullahwahabzadah@gmail.com</a>
+                </div>
             </p>
             <a
               href="https://t.me/HWE0040"
@@ -59,7 +64,7 @@ const Footer = () => {
           </div>
 
           {/* Footer links */}
-          <div className="col-span-2 grid grid-cols-2 sm:grid-cols-3 md:pl-10">
+          <div className="col-span-2 grid grid-cols-2 sm:grid-cols-3 md:pr-12">
             <div className="py-8 px-4">
               <h1 className="text-xl font-bold sm:text-left mb-3">
                 Important Links
@@ -97,7 +102,7 @@ const Footer = () => {
             </div>
 
             {/* Company Address */}
-            <div className="py-8 px-4 col-span-2 sm:col-auto">
+            <div className="py-8 px-4 col-span-2 sm:col-auto ">
               <h1 className="text-xl font-bold sm:text-left mb-3">Address</h1>
               <div>
                 <div className="flex items-center gap-3">
@@ -108,7 +113,7 @@ const Footer = () => {
                   <FaMobileAlt />
                   <p>+93794454095</p>
                 </div>
-
+              
                 {/* social links */}
                 <div className="flex items-center gap-3 mt-6">
                   <a href="https://www.instagram.com/hasibullah_wahabzadeh/">

@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import './Navbars.css'
+import "./Navbars.css";
 import { IoMdSearch } from "react-icons/io";
 import { FaCaretDown, FaCartShopping } from "react-icons/fa6";
-
+import './Navbars.css'
 import DarkMode from "./DarkMode";
 
 const MenuLinks = [
@@ -19,7 +19,7 @@ const MenuLinks = [
   {
     id: 3,
     name: "About",
-    link: "/#about",
+    link: "/#footer",
   },
   {
     id: 4,
@@ -31,33 +31,32 @@ const MenuLinks = [
 const DropdownLinks = [
   {
     id: 1,
-    name: "Trending Products",
-    link: "/#",
+    name: "Services",
+    link: "/#services",
   },
   {
     id: 2,
-    name: "Best Selling",
-    link: "/#",
+    name: "Samsung",
+    link: "/#samsung",
   },
   {
     id: 3,
-    name: "Top Rated",
-    link: "/#",
+    name: "Apple",
+    link: "/#apple",
   },
-];                            
-                                                      
-const Navbar = ({ handleOrderPopup }) => {                                    
+];
+
+const Navbar = ({ handleOrderPopup }) => {
   return (
-                                                                                     // sticky top-0 bottom-0 relative
-    <div className="navbar bg-white dark:bg-gray-900 dark:text-white duration-200 z-40  sticky top-0">   
+    // sticky top-0 bottom-0 relative
+    <div className="navbar bg-white dark:bg-gray-900 dark:text-white duration-200 z-40  sticky top-0">
       <div className="py-4">
         <div className="container flex justify-between items-center">
           {/* Logo and Links section */}
           <div className="flex items-center gap-4">
             <a
-          
               href="#"
-              className="text-primary font-semibold tracking-widest text-2xl uppercase sm:text-1xl"
+              className="text-primary font-semibold tracking-widest text-4xl  sm:text-1xl Yellowtail"
             >
               Almas Technology
             </a>
@@ -122,18 +121,18 @@ const Navbar = ({ handleOrderPopup }) => {
               <IoMdSearch className="text-xl text-gray-600 group-hover:text-primary dark:text-gray-400 absolute top-1/2 -translate-y-1/2 right-3 duration-200" />
             </div>
 
-                    {/* Language section */}
+            {/* Language section */}
             <div>
-            <select
-              name="Language"
-              id=""
-              className="bg-white dark:bg-gray-900  flex items-center
+              <select
+                name="Language"
+                id=""
+                className="bg-white dark:bg-gray-900  flex items-center
               text-gray-500  dark:hover:text-white duration-200 rounded-md font-semibold"
-            >
-              <option value="English">En</option>
-              <option value="French">Fr</option>
-              <option value="Spanish">Sp</option>
-            </select>
+              >
+                <option value="English">En</option>
+                <option value="French">Fr</option>
+                <option value="Spanish">Sp</option>
+              </select>
             </div>
 
             {/* Order-button section */}

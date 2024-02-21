@@ -2,11 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-    margin: 0;
-    padding: 0;
-    box-sizing: content-box;
-}
+
+@font-face {
+    font-family: "Fredoka";
+    src: url(./assets/font/Fredoka/static/Fredoka_SemiExpanded-Regular.ttf);
+  
+  }
+  body{
+    font-family: "Fredoka";
+  }
 
 
   
