@@ -1,6 +1,6 @@
 import React from "react";
 import phone from "../../assets/Banner/phone-i.png";
-import Button from "../Shared/Button";
+// import Button from "../Shared/Button";
 
 const BannerData = [
   {
@@ -48,13 +48,13 @@ const Banner2 = () => {
                 {data.title3}
               </p>
               <p className="text-sm tracking-wide leading-4 font-bold">{data.title4}</p>
-              <div>
+              {/* <div>
                 <Button
                   text="Shop Now"
                   bgColor="bg-white"
                   textColor="text-brandGreen"
                 />
-              </div>
+              </div> */}
             </div>
           </div>
         ))}

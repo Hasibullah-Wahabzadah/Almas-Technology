@@ -1,10 +1,34 @@
 @font-face {
-    font-family: Yellowtail;
-    src: url(../../assets/font/Yellowtail/Yellowtail-Regular.ttf),
-  ;
-    
+  font-family: Yellowtail;
+  src: url(../../assets/font/Yellowtail/Yellowtail-Regular.ttf);
 }
 
-.Yellowtail{
-    font-family: "Yellowtail";
+.Yellowtail {
+  font-family: "Yellowtail";
+}
+
+/* Navbars.css */
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1000; /* Ensure this is below the z-index of .burger-menu */
+}
+.burger-menu {
+  position: fixed;
+  top: 0;
+  left: -100%;
+  width: 250px;
+  height: 100%;
+  background: #fff;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.3);
+  transition: left 0.3s ease;
+  z-index: 1100; /* Ensure this is above the z-index of .backdrop */
+}
+
+.burger-menu.open {
+  left: 0; /* باز کردن منو از سمت چپ */
 }

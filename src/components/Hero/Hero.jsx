@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import Image2 from "../../assets/hero/phone-2.png";
 import Image1 from "../../assets/hero/headphone.png";
 import Image3 from "../../assets/hero/macbook.png";
-import Button from "../Shared/Button";
+// import Button from "../Shared/Button";
 const HeroData = [
   {
     id: 2,
@@ -71,13 +71,13 @@ const Hero = ({ handleOrderPopup }) => {
                     >
                       {data.title2}
                     </h1>
-                    <div>
+                    {/* <div>
                       <Button 
                       text="Shop Now"
                       bgColor="bg-primary"
                       textColor="text-white"
                       />
-                    </div>
+                    </div> */}
                   </div>
                   {/* img section */}
                   <div className="order-1 sm:order-2">

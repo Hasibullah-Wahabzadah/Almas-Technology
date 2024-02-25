@@ -8,12 +8,17 @@ import brand4 from "../../assets/brand/4.png";
 import brand5 from "../../assets/brand/5.png";
 import brand6 from "../../assets/brand/6.png";
 import brand7 from "../../assets/brand/7.png";
+import Header from "../Shared/Header";
 
 const Brands = () => {
   return (
-    <div className="py-2 mt-14  md:block bg-gray-200 dark:bg-white/10">
-      <div className="container ">
-        <div className="grid grid-cols-7 gap-1 place-items-center ">
+    <div className="" id="brand">
+      <div >
+          <Header title="Our Brands" subtitle={"Stay up-to-data whith latest happenings"}/>
+        </div>
+      <div className=" bg-gray-200 dark:bg-white/10 py-2 mt-14  md:block ">
+        
+        <div className="grid grid-cols-7 gap-1 place-items-center container">
           <img
             src={brand1}
             alt="brand"

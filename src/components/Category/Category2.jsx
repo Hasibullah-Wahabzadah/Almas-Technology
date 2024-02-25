@@ -2,7 +2,8 @@ import React from "react";
 import Image1 from "../../assets/category/phone-5.png";
 import Image2 from "../../assets/category/smartwatch.png";
 import Image3 from "../../assets/category/phone-1-c.png";
-import Button from "../Shared/Button";
+
+import Button1 from "../Shared/Button1";
 
 const Category = () => {
   return (
@@ -18,10 +19,10 @@ const Category = () => {
                 <p className="text-4xl xl:text-6xl font-bold opacity-40 mb-2">
                   Phone
                 </p>
-                <Button
+                <Button1
                   text="Browse"
-                  bgColor={"bg-primary"}
-                  textColor={"text-white"}
+                  bgColor="bg-primary"
+                  textColor="text-white"
                 />
               </div>
             </div>
@@ -38,16 +39,20 @@ const Category = () => {
                 <p className="mb-[2px] text-white">Enjoy</p>
                 <p className="text-2xl font-semibold mb-[2px]">With</p>
                 <p className="text-3xl xl:text-5xl font-bold opacity-40 mb-2">
-                Smartwatch
+                  Smartwatch
                 </p>
-                <Button
+                <Button1
                   text="Browse"
-                  bgColor={"bg-white"}
-                  textColor={"text-brandGreen"}
+                  bgColor="bg-white"
+                  textColor="text-brandGreen"
                 />
               </div>
             </div>
-            <img src={Image2} alt="" className="w-[201px] absolute -right-1 sm:w-[150px] sm:bottom-[50px] drop-shadow-[-8px_4px_6px_rgba(0,0,0,0.4)] hover:scale-105 duration-300"/>
+            <img
+              src={Image2}
+              alt=""
+              className="w-[201px] absolute -right-1 sm:w-[150px] sm:bottom-[50px] drop-shadow-[-8px_4px_6px_rgba(0,0,0,0.4)] hover:scale-105 duration-300"
+            />
           </div>
           {/* Third col */}
           <div className="py-10 pl-5 bg-gradient-to-br from-brandBlue to-brandBlue/90 text-white rounded-3xl relative h-[320px] flex items-end">
@@ -58,10 +63,10 @@ const Category = () => {
                 <p className="text-4xl xl:text-6xl font-bold opacity-40 mb-2">
                   Phone
                 </p>
-                <Button
+                <Button1
                   text="Browse"
-                  bgColor={"bg-white"}
-                  textColor={"text-brandBlue"}
+                  bgColor="bg-white"
+                  textColor="text-brandBlue"
                 />
               </div>
             </div>

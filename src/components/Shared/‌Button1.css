@@ -1,0 +1,7 @@
+/* در فایل CSS شما یا استایل‌های مشابه */
+
+.cursor-pointer:hover {
+    transform: scale(1.05);
+    transition-duration: 200ms;
+  }
+  

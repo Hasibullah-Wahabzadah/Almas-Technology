@@ -2,35 +2,38 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @font-face {
-    font-family: "Fredoka";
-    src: url(./assets/font/Fredoka/static/Fredoka_SemiExpanded-Regular.ttf);
-  
-  }
-  body{
-    font-family: "Fredoka";
-  }
-
-
-  
+  font-family: "Fredoka";
+  src: url(./assets/font/Fredoka/static/Fredoka_SemiExpanded-Regular.ttf);
+}
+body {
+  font-family: "Fredoka";
+}
 
 @layer components {
-    .search-bar{
-        @apply w-0 group-hover:w-[300px] transition-all duration-300
+  .search-bar {
+    @apply w-0 group-hover:w-[300px] transition-all duration-300
         rounded-full group-hover:border group-hover:border-gray-500
         px-3 py-1 focus:outline-none dark:border-gray-800
         dark:bg-gray-900 group-hover:dark:bg-gray-800;
-    }
+  }
 }
 
 @layer utilities {
-    .hero-bg-color{
-        @apply bg-gradient-to-t from-gray-300/80 to-gray-100
-        dark:from-gray-900 dark:to-gray-800 dark:text-white
-    }
+  .hero-bg-color {
+    @apply bg-gradient-to-t from-gray-300/80 to-gray-100
+        dark:from-gray-900 dark:to-gray-800 dark:text-white;
+  }
+}
+@layer utilities {
+  .hero-bg-color1 {
+    @apply bg-gradient-to-t from-gray-400/90 to-gray-200
+        dark:from-gray-900 dark:to-gray-800 dark:text-white;
+  }
+}
 
-    .form-input {
-        @apply rounded-full border border-gray-300 dark:border-gray-500 dark:bg-gray-800 px-2 py-1 mb-4;
-      }
+@layer utilities {
+  .form-input1 {
+    @apply border border-gray-300 dark:border-gray-500 dark:bg-gray-800 px-2 py-1 mb-4;
+  }
 }

@@ -1,41 +1,44 @@
-import React from 'react'
+import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Pages from "./Pages";
 
-import Navbar from './components/Navbar/Navbar';
-import Hero from './components/Hero/Hero';
-import LandingPage from './components/LandingPage/LandingPage';
-import Category from './components/Category/Category';
-import Category2 from './components/Category/Category2';
-import Services from './components/Services/Services';
-import Banner from './components/Banner/Banner'
-import Banner2 from './components/Banner/Banner2'
-import Products from './components/Products/Products';
-import Products2 from './components/Products/Products2';
-import Blogs from './components/Blogs/Blogs';
-import Brands from './components/Brands/Brands';
-import Footer from './components/Footer/Footer';
-
-
+import Category from "./components/Category/Category";
+import Blogs from "./components/Blogs/Blogs";
+import ProductDetail from "./components/producs2/ProductDetail";
+import Products2 from "./components/Products/Products2";
+import Apple from "./components/ProductApple/Apple";
+import ProductDetail2 from "./components/ProductApple/ProductDetail2";
+import Products from "./components/Products/Products";
+import Samsung from "./components/ProductSamsung/Samsung";
+import ProductDetail3 from "./components/ProductSamsung/ProductDetail3";
+import ProductsData from "./components/Products/ProductsData";
+import ProductDetail4 from "./components/Products/ProductDetail4";
+import ProductsDatac from "./components/Products/ProductsDatac";
+import ProductDetail5 from "./components/Products/ProductDetail5";
 
 const App = () => {
   return (
-  <div className='bg-white dark:bg-gray-900 dark:text-white
-  duration-200 '>
+    <Router>
+      <Routes>
+        <Route exact path="/" element={<Pages />} />
+        <Route path="/Category" element={<Category />} />
+        <Route path="/Blogs" element={<Blogs />} />
+        <Route path="/product/:id" element={<ProductDetail />} />
+        <Route path="/Products2" element={<Products2 />} />
+        <Route path="/Apple" element={<Apple />} />
+        <Route path="/product1/:id" element={<ProductDetail2 />} />
+        <Route path="/Products" element={<Products />} />
+        <Route path="/Samsung" element={<Samsung />} />
+        <Route path="/product2/:id" element={<ProductDetail3 />} />
 
-    <Navbar />
-    <LandingPage/>
-    <Hero />
-    <Category/>
-    <Category2/>
-    <Services />
-    <Banner />
-    <Products />
-    <Banner2 />
-    <Products2 />
-    <Blogs/>
-    <Brands/>
-    <Footer/>
-  </div>
+        <Route path="ProductsData" element={<ProductsData/>}/>
+        <Route path="/product3/:id" element={<ProductDetail4 />} />
+
+        <Route path="/ProductsDatac" element={<ProductsDatac/>}/>
+        <Route path="/product4/:id" element={<ProductDetail5 />} />
+      </Routes>
+    </Router>
   );
-}
+};
 
-export default App
+export default App;

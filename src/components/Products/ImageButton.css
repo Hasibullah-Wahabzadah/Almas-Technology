@@ -1,0 +1,60 @@
+.containers {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+/* .containers img {
+  width: 100%;
+  height: auto;
+} */
+
+.containers .btn {
+  position: absolute;
+  top: 50%;
+  left: 11%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: red;
+  color: white;
+  font-size: 16px;
+  padding: 10px 35px;
+  border: none;
+  cursor: pointer;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.containers .btn:hover {
+  background-color: red;
+  color: white;
+}
+
+
+
+
+
+span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .btn:hover span {
+    padding-right: 25px;
+  }
+  
+  .btn:hover span:after {
+    opacity: 1;
+    right: 0;
+  }

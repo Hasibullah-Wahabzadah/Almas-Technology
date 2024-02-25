@@ -1,0 +1,11 @@
+.shadow-animation {
+  box-shadow: -8px 4px 6px rgba(0, 0, 0, 0.4);
+  border-color: rgba(0, 0, 0, 0.4);
+}
+
+
+/* .hr {
+  border-left: 1px solid block;
+  height: 10%;
+  margin: 0 10px;
+} */
