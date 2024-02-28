@@ -75,7 +75,7 @@ const Products2 = ({ data }) => {
   const starCount = 5;
   return (
     <div>
-      <div className="container ">
+      <div className="container " id="apple">
         {/* Header section */}
         <Header title={"Our Products"} subtitle={"---< Apple >---"} />
         {/* Body section */}
@@ -83,14 +83,18 @@ const Products2 = ({ data }) => {
         <ProductsDatac data={ProductData} />
         {/* <ProductsDatac data={ProductData2} /> */}
         {/* <ProductsData data={ProductData3} /> */}
-        <div className="containers container ">
+        <div className="containers container "
+        data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000"
+        >
           <img
             src={Image}
             alt="Snow"
             className=" opacity-50 object-cover rounded-xl hero-bg-color h-[230px] w-[230px]"
           />
           <Link to="/Apple">
-            <button className="btn">
+            <button className="btn ml-[120px] sm:ml-[100px] lg:ml-[120px]">
               <span>More items</span>
             </button>
           </Link>

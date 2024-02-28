@@ -35,154 +35,154 @@ const ProductDetail2 = () => {
       id: 1,
       title: "MacBook pro M1",
     price: "$1299",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.  ",
       Image: Img1,
     },
     {
       id: 2,
       title: "MacBook pro Air",
     price: "$999",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.  ",
       Image: Img2,
     },
     {
       id: 3,
       title: "MacBook pro 16",
     price: "$2399",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.  ",
       Image: Img3,
     },
     {
       id: 4,
       title: "MacBook pro 13",
       price: "$1399",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.  ",
       Image: Img4,
     },
     {
       id: 5,
       title: "iphone 7",
       price: "$399",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.  ",
       Image: Img5,
     },
     {
       id: 6,
       title: "iphone 8",
     price: "$499",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.  ",
       Image: Img6,
     },
     {
       id: 7,
       title: "iphone xs",
       price: "$999 ",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.  ",
       Image: Img7,
     },
     {
       id: 8,
       title: "iphone 5",
       price: "$100 ",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.  ",
       Image: Img8,
     },
     {
       id: 9,
       title: "iphone 6",
       price: "$199",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.  ",
       Image: Img9,
     },
     {
       id: 10,
       title: "ipad pro ",
     price: "$494",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.  ",
       Image: Img10,
     },
     {
       id: 11,
       title: "Fitbit Versa 3",
     price: "$229",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.  ",
       Image: Img11,
     },
     {
       id: 12,
       title: "Apple Watch SE",
       price: "$279",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.  ",
       Image: Img12,
     },
     {
       id: 13,
       title: "Apple Watch Series 6",
     price: "$399",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.  ",
       Image: Img13,
     },
     {
       id: 14,
       title: "Grmin Venu Sq",
     price: "$199",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.  ",
       Image: Img14,
     },
     {
       id: 15,
       title: "Samsung Galaxy A33",
       price: "$599",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.  ",
       Image: Img15,
     },
     {
       id: 16,
       title: "Power Bank Wireless Qi",
       price: "$100",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.  ",
       Image: Img16,
     },
     {
       id: 17,
       title: "ipad cover",
     price: "$12",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.  ",
       Image: Img17,
     },
     {
       id: 18,
       title: "iphone cover ",
     price: "$9",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.  ",
       Image: Img18,
     },
     {
       id: 19,
       title: "iphone charger",
     price: "$49",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.  ",
       Image: Img19,
     },
     {
       id: 20,
       title: "Iphone glass",
       price: "$3",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.  ",
       Image: Img20,
     },
     {
       id: 21,
       title: "Iphone glass",
       price: "$2",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.  ",
       Image: Img21,
     },
     {
       id: 22,
       title: "inpods",
     price: "$12",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.  ",
       Image: Img22,
     },
    
@@ -194,17 +194,21 @@ const ProductDetail2 = () => {
     <div className="bg-white dark:bg-gray-900 dark:text-white duration-200">
       <Navbar />
       <div className="container bottom-auto mt-6 grid grid-cols-1 lg:grid-cols-2 ">
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center items-center"
+        data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000"
+        >
           <img
             src={product1.Image}
             alt={product1.title}
             className="w-[500px] h-[500px]  rounded-xl hero-bg-color"
           />
         </div>
-        <div className="flex flex-col justify-center px-9 hero-bg-color rounded-xl ">
+        <div className="flex flex-col justify-center px-9 hero-bg-color rounded-xl "  data-aos="flip-down">
           <h2 className="text-2xl lg:text-4xl font-bold ">{product1.title}</h2>
           <p className="text-xl lg:text-2xl">Price: {product1.price}</p>
-          <p className="text-lg lg:text-xl">{product1.description}</p>
+          <p className="text-lg lg:text-xl opacity-80">{product1.description}</p>
         </div>
       </div>
       <Footer />

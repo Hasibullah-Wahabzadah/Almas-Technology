@@ -80,14 +80,19 @@ const Products = ({ data }) => {
         {/* <ProductsData data={ProductData2} /> */}
         {/* <ProductsData data={ProductData3}/> */}
 
-        <div className="containers container ">
+        <div 
+         data-aos="flip-left"
+         data-aos-easing="ease-out-cubic"
+         data-aos-duration="2000"
+        className="containers container ">
           <img
+          
             src={Images}
             alt="Snow"
             className=" opacity-50 object-cover rounded-xl hero-bg-color h-[230px] w-[230px]"
           />
           <Link to="/Samsung">
-            <button className="btn">
+            <button className="btn ml-[120px] sm:ml-[100px] lg:ml-[120px]">
               <span>More items</span>
             </button>
           </Link>

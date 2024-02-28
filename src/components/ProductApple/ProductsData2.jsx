@@ -11,7 +11,11 @@ const ProductsData2 = ({ data }) => {
       <div className="grid grid-cols-1 sm:grid-col-2 md:grid-cols-2 lg:grid-cols-4 gap-9 place-items-center ">
         {/* card section */}
         {data.map((data) => (
-          <div key={data.id} className="hover:scale-110 duration-500 group ">
+          <div key={data.id} className="hover:scale-110 duration-500 group "
+          data-aos="flip-left"
+         data-aos-easing="ease-out-cubic"
+         data-aos-duration="2000"
+          >
             <div className="relative">
               <img
                 src={data.img}

@@ -15,7 +15,7 @@ const Footer = () => {
       <div className="container">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 pt-5">
           {/* company details */}
-          <div className="py-8 px-4 md:col-span-1">
+          <div className="py-8 px-4 md:col-span-1" data-aos="zoom-out">
             <a
               href="#"
               className="text-primary font-semibold tracking-widest text-2xl Yellowtail sm:text-4xl"
@@ -42,7 +42,10 @@ const Footer = () => {
           </div>
 
           {/* Footer links */}
-          <div className="md:col-span-1 grid grid-cols-1 sm:grid-cols-2 gap-[8px] text-black dark:text-white">
+          <div
+           data-aos="zoom-out"
+            className="md:col-span-1 grid grid-cols-1 sm:grid-cols-2 gap-[8px] text-black dark:text-white"
+          >
             {/* Company Address */}
             <div className="py-9  ">
               <h1 className="text-2xl font-bold mb-3">Address</h1>
@@ -86,7 +89,12 @@ const Footer = () => {
           </div>
 
           {/* Contact Form */}
-          <div className="py-5 ">
+          <div
+            className="py-5 "
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+          >
             <div
               className="md:pl-9 px-9 hero-bg-color py-6 rounded-xl border shadow-animation drop-shadow-[-8px_4px_6px_rgba(0,0,0,0.4)] 
           "
@@ -128,9 +136,8 @@ const Footer = () => {
       </div>
       <div className="flex justify-center hero-bg-color1">
         <p className=" text-black dark:text-white mt-3 pb-3 text-2xl sm:text-x">
-          
-            <i className="text-2xl">&copy; </i>
-         
+          <i className="text-2xl">&copy; </i>
+
           <span className="text-xl">
             2024 Developer Hasibullah Wahabzadah | All rights reserved
           </span>

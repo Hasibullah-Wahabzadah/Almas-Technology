@@ -10,6 +10,12 @@ body {
   font-family: "Fredoka";
 }
 
+::selection {
+  color: white;
+  background-color: #08042bec;
+}
+
+
 @layer components {
   .search-bar {
     @apply w-0 group-hover:w-[300px] transition-all duration-300
