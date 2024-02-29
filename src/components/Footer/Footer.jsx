@@ -29,9 +29,9 @@ const Footer = () => {
               a simple and coveninet experience for you. Stay with us and take
               advantage of special offers and unique discounts.
             </p>
-            {/* <p className="text-gray-500 mt-4 text-2xl sm:text-3xl Yellowtail">
+            <p className="text-gray-500 mt-4 text-2xl sm:text-3xl Yellowtail">
               Developer Hasibullah Wahabzadah
-            </p> */}
+            </p>
             <a
               href="https://t.me/HWE0040"
               target="_blank"
@@ -131,15 +131,15 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      {/* <div className="flex justify-center hero-bg-color1">
-        <p className=" text-black dark:text-white mt-3 pb-3 text-2xl sm:text-x">
+  
+        {/* <div className=" text-black dark:text-white pt-3 pb-3 text-2xl sm:text-x flex justify-center hero-bg-color1">
           <i className="text-2xl">&copy; </i>
 
-          <span className="text-xl">
+          <p className="text-xl">
             2024 Developer Hasibullah Wahabzadah | All rights reserved
-          </span>
-        </p>
-      </div> */}
+          </p>
+        </div> */}
+
     </div>
   );
 };

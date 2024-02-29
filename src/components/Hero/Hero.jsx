@@ -59,19 +59,19 @@ const Hero = ({ handleOrderPopup }) => {
                     sm:text-left order-2 sm:order-1 relative z-10"
                   >
                     <h1
-                      data-aos="fade-up"
+                     
                       className="text-4xl sm:text-2xl lg:text-3xl font-bold"
                     >
                       {data.subtitle}
                     </h1>
                     <h1
-                      data-aos="fade-up"
+                     
                       className="text-5xl sm:text-6xl lg:text-7xl font-bold"
                     >
                       {data.title}
                     </h1>
                     <h1
-                      data-aos="fade-up"
+                     
                       className="text-5xl uppercase text-white dark:text-white/5
                     sm:text-[70px] md:text-[80px] xl:text-[150px] font-bold"
                     >
@@ -89,7 +89,7 @@ const Hero = ({ handleOrderPopup }) => {
                   <div className="order-1 sm:order-2">
                     <div>
                       <img
-                        data-aos="fade-down"
+                        
                         src={data.img}
                         alt=""
                         className="w-[300px] sm:w-[450px] h-[300px] sm:h-[450px] 

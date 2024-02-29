@@ -15,19 +15,19 @@ import ProductsData from "./components/Products/ProductsData";
 import ProductDetail4 from "./components/Products/ProductDetail4";
 import ProductsDatac from "./components/Products/ProductsDatac";
 import ProductDetail5 from "./components/Products/ProductDetail5";
-import AOS from "aos";
-import "aos/dist/aos.css";
+// import AOS from "aos";
+// import "aos/dist/aos.css";
 const App = () => {
 
-  React.useEffect(() => {
-    AOS.init({
-      duration: 800,
-      easing: "ease-in-sine",
-      delay: 100,
-      offset: 100,
-    });
-    AOS.refresh();
-  }, []);
+  // React.useEffect(() => {
+  //   AOS.init({
+  //     duration: 800,
+  //     easing: "ease-in-sine",
+  //     delay: 100,
+  //     offset: 100,
+  //   });
+  //   AOS.refresh();
+  // }, []);
 
 
   return (

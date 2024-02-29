@@ -12,9 +12,7 @@ const ProductsDatac = ({ data }) => {
         {/* card section */}
         {data.map((data) => (
           <div key={data.id} className="hover:scale-110 duration-500 group "
-          data-aos="flip-left"
-         data-aos-easing="ease-out-cubic"
-         data-aos-duration="2000"
+          
           >
             <div className="relative">
               <img

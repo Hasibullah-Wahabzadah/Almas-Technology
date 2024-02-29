@@ -22,50 +22,43 @@ const Brands = () => {
             src={brand1}
             alt="brand"
             className="w-[130px] drop-shadow-[-8px_10px_6px_rgba(0,0,0,1.4)]"
-            data-aos="zoom-in-up"
-            data-aos-delay="200"
+            
           />
           <img
             src={brand2}
             alt="brand"
             className="w-[130px] drop-shadow-[-8px_10px_6px_rgba(0,0,0,1.4)]"
-            data-aos="zoom-in-up"
-            data-aos-delay="400"
+            
           />
           <img
             src={brand3}
             alt="brand"
             className="w-[130px] drop-shadow-[-8px_10px_6px_rgba(0,0,0,1.4)]"
-            data-aos="zoom-in-up"
-            data-aos-delay="500"
+            
           />
           <img
             src={brand4}
             alt="brand"
             className="w-[130px] drop-shadow-[-8px_10px_6px_rgba(0,0,0,1.4)]"
-            data-aos="zoom-in-up"
-            data-aos-delay="600"
+            
           />
           <img
             src={brand5}
             alt="brand"
             className="w-[130px] drop-shadow-[-8px_10px_6px_rgba(0,0,0,1.4)]"
-            data-aos="zoom-in-up"
-            data-aos-delay="700"
+            
           />
           <img
             src={brand6}
             alt="brand"
             className="w-[130px] drop-shadow-[-8px_10px_6px_rgba(0,0,0,1.4)]"
-            data-aos="zoom-in-up"
-            data-aos-delay="800"
+            
           />
           <img
             src={brand7}
             alt="brand"
             className="w-[130px] drop-shadow-[-8px_10px_6px_rgba(0,0,0,1.4)]"
-            data-aos="zoom-in-up"
-            data-aos-delay="900"
+            
           />
         </div>
       </div>

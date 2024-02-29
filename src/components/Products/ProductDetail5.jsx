@@ -83,9 +83,7 @@ const ProductDetail5 = () => {
       <Navbar />
       <div className="container bottom-auto mt-6 grid grid-cols-1 lg:grid-cols-2 ">
         <div className="flex justify-center items-center"
-         data-aos="flip-left"
-         data-aos-easing="ease-out-cubic"
-         data-aos-duration="2000"
+        
         >
           <img
             src={product4.Image}
@@ -94,7 +92,7 @@ const ProductDetail5 = () => {
           />
         </div>
         <div className="flex flex-col justify-center px-9 hero-bg-color rounded-xl "
-          data-aos="flip-down"
+       
         >
           <h2 className="text-2xl lg:text-4xl font-bold ">{product4.title}</h2>
           <p className="text-xl lg:text-2xl">Price: {product4.price}</p>

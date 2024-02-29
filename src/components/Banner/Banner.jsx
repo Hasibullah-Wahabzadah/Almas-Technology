@@ -21,9 +21,7 @@ const Banner = () => {
     <div className="min-h-[360px] flex py-5">
       <div
         className="container"
-        data-aos="fade-up"
-        data-aos-anchor-placement="center-bottom"
-        data-aos-delay="200"
+        
       >
         {BannerData.map((data) => (
           <div className="grid grid-cols-1 md:grid-cols-3 gap-7 items-center text-white rounded-3xl bg-primary ">
@@ -49,8 +47,7 @@ const Banner = () => {
             {/* second col */}
             <div
               className="h-full flex items-start"
-              data-aos="zoom-out"
-              data-aos-delay="600"
+              
             >
               <img
                 src={data.image}

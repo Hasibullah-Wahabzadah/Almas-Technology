@@ -84,9 +84,7 @@ const Products2 = ({ data }) => {
         {/* <ProductsDatac data={ProductData2} /> */}
         {/* <ProductsData data={ProductData3} /> */}
         <div className="containers container "
-        data-aos="flip-left"
-        data-aos-easing="ease-out-cubic"
-        data-aos-duration="2000"
+       
         >
           <img
             src={Image}

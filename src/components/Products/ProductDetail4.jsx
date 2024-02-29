@@ -90,9 +90,7 @@ const ProductDetail4 = () => {
       <Navbar />
       <div className="container bottom-auto mt-6 grid grid-cols-1 lg:grid-cols-2 ">
         <div className="flex justify-center items-center"
-        data-aos="flip-left"
-        data-aos-easing="ease-out-cubic"
-        data-aos-duration="2000"
+       
         >
           <img
             src={product3.Image}

@@ -12,18 +12,18 @@ const Category = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
           {/* First col */}
           <div
-            data-aos="zoom-in-up"
-            data-aos-delay="700"
+           
+            
             className="sm:col-span-2 py-10 pl-5 bg-gradient-to-br from-gray-400/90 to-gray-100 text-white rounded-3xl relative h-[320px] flex items-end"
           >
             <div>
               <div className="mb-4">
-                <p className="mb-[2px] text-white text-xl" data-aos="fade-left">
+                <p className="mb-[2px] text-white text-xl">
                   Enjoy
                 </p>
                 <p
                   className="text-3xl font-semibold mb-[2px]"
-                  data-aos="fade-left"
+                 
                 >
                   With
                 </p>
@@ -38,26 +38,25 @@ const Category = () => {
               </div>
             </div>
             <img
-              data-aos="fade-right"
+              
               src={Image1}
               alt=""
-              className="w-[330px] absolute top-1/5 -translate-y-1/2 -right-0 drop-shadow-[-8px_4px_6px_rgba(0,0,0,0.4)] hover:scale-105 duration-300"
+              className="w-[330px] absolute top-1/2 -translate-y-1/2 -right-0 drop-shadow-[-8px_4px_6px_rgba(0,0,0,0.4)] hover:scale-105 duration-300"
             />
           </div>
           {/* Second col */}
           <div
-            data-aos="zoom-in-up"
-            data-aos-delay="800"
+           
             className="py-10 pl-5 bg-gradient-to-br from-brandGreen/90 to-brandGreen/90 text-white rounded-3xl relative h-[320px] flex items-end"
           >
             <div>
               <div className="mb-4">
-                <p className="mb-[2px] text-white" data-aos="fade-left">
+                <p className="mb-[2px] text-white">
                   Enjoy
                 </p>
                 <p
                   className="text-2xl font-semibold mb-[2px]"
-                  data-aos="fade-left"
+                 
                 >
                   With
                 </p>
@@ -72,7 +71,7 @@ const Category = () => {
               </div>
             </div>
             <img
-              data-aos="fade-right"
+              
               src={Image2}
               alt=""
               className="w-[201px] absolute -right-1 sm:w-[150px] sm:bottom-[50px] drop-shadow-[-8px_4px_6px_rgba(0,0,0,0.4)] hover:scale-105 duration-300"
@@ -80,18 +79,17 @@ const Category = () => {
           </div>
           {/* Third col */}
           <div
-            data-aos="zoom-in-up"
-            data-aos-delay="900"
+           
             className="py-10 pl-5 bg-gradient-to-br from-brandBlue to-brandBlue/90 text-white rounded-3xl relative h-[320px] flex items-end"
           >
             <div>
               <div className="mb-4">
-                <p className="mb-[2px] text-white" data-aos="fade-left">
+                <p className="mb-[2px] text-white">
                   Enjoy
                 </p>
                 <p
                   className="text-2xl font-semibold mb-[2px]"
-                  data-aos="fade-left"
+                 
                 >
                   With
                 </p>
@@ -106,7 +104,7 @@ const Category = () => {
               </div>
             </div>
             <img
-              data-aos="fade-right"
+              
               src={Image3}
               alt=""
               className="w-[250px] absolute bottom-0  -right-0 drop-shadow-[-8px_4px_6px_rgba(0,0,0,0.4)] hover:scale-105 duration-300"

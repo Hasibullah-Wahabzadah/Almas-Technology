@@ -77,13 +77,10 @@ const Products = ({ data }) => {
         <Header title={"Our Products"} subtitle={" ---< Samsung >---"} />
         {/* Body section */}
         <ProductsData data={ProductData} />
-        {/* <ProductsData data={ProductData2} /> */}
-        {/* <ProductsData data={ProductData3}/> */}
+       
 
         <div 
-         data-aos="flip-left"
-         data-aos-easing="ease-out-cubic"
-         data-aos-duration="2000"
+       
         className="containers container ">
           <img
           

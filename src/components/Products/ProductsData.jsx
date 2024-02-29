@@ -12,9 +12,7 @@ const ProductsData = ({ data }) => {
         {/* card section */}
         {data.map((data) => (
           <div 
-          data-aos="flip-left"
-          data-aos-easing="ease-out-cubic"
-          data-aos-duration="2000"
+          
           key={data.id} className="hover:scale-110 duration-500 group ">
             <div
             
