@@ -25,6 +25,7 @@ const ProductsCart1 = ({ data }) => {
                 className="hidden absolute top-1/2 -translate-y-1/2 left-1/2  -translate-x-1/2 h-full w-full text-center group-hover:flex
              justify-center items-center duration-200 group-hover:backdrop-blur-sm"
               >
+
                 <Link to={`/product/${data.id}`}>
                   <Button
                     text={"see"}

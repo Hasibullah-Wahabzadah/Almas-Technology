@@ -1,5 +1,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
+import Navbar from "../Navbar/Navbar";
+import Footer from "../Footer/Footer";
 
 import Img1 from "../../assets/product/iphone/1.png";
 import Img2 from "../../assets/product/iphone/2.png";
@@ -45,11 +47,10 @@ import Img41 from "../../assets/product/Samsung/6.png";
 import Img42 from "../../assets/product/Samsung/2.png";
 import Img43 from "../../assets/product/Samsung/7.png";
 import Img44 from "../../assets/product/Samsung/3.png";
-import Navbar from "../Navbar/Navbar";
-import Footer from "../Footer/Footer";
+
 
 const ProductDetail = () => {
-  const { id } = useParams(0);
+  const { id } = useParams();
 
   const products = [
     {
