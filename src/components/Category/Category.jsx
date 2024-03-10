@@ -1,7 +1,4 @@
 import React from "react";
-import Image1 from "../../assets/category/earphone.png";
-import Image2 from "../../assets/category/phone-3-c.png";
-import Image3 from "../../assets/category/laptop-1-2.png";
 
 import Button1 from "../Shared/Button1";
 
@@ -38,7 +35,7 @@ const Category = () => {
             </div>
             <img
               
-              src={Image1}
+              src={"/assets/category/earphone.png"}
               alt=""
               className="w-[300px] ml-12 absolute bottom-0 drop-shadow-[-8px_4px_6px_rgba(0,0,0,0.4)] hover:scale-105 duration-300 "
             />
@@ -71,7 +68,7 @@ const Category = () => {
             </div>
             <img
               
-              src={Image2}
+              src={"/assets/category/phone-3-c.png"}
               alt=""
               className="w-[250px] absolute right-[10px] bottom-0  drop-shadow-[-8px_4px_6px_rgba(0,0,0,0.4)] hover:scale-105 duration-300"
             />
@@ -104,7 +101,7 @@ const Category = () => {
             </div>
             <img
               
-              src={Image3}
+              src={"/assets/category/laptop-1-2.png"}
               alt=""
               className="w-[300px] absolute top-1/2 -translate-y-1/2 -right-0 drop-shadow-[-8px_4px_6px_rgba(0,0,0,0.4)] hover:scale-105 duration-300"
             />

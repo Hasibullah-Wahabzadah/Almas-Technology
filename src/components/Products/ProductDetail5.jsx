@@ -1,15 +1,8 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 
-import Image from "../../assets/product/iphone/2.png";
-import Img1 from "../../assets/product/iphone/16-1.png";
-import Img2 from "../../assets/product/iphone/16-2.png";
-import Img3 from "../../assets/product/iphone/14.png";
-import Img4 from "../../assets/product/iphone/15-1.png";
-import Img5 from "../../assets/product/iphone/17.png";
-import Img6 from "../../assets/product/iphone/18.png";
-import Img7 from "../../assets/product/iphone/19.png";
-import Img8 from "../../assets/product/iphone/20.png";
+
+
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
 
@@ -22,56 +15,56 @@ const ProductDetail5 = () => {
       title: "Samsung Galaxy S21 Ultra",
       price: "$1200",
       description: "  corrupti atque architecto commodi qui, inventore accusantium doloribus dolorem impedit, iste tempora!",
-      Image: Img1,
+      Image: "/assets/product/iphone/16-1.png",
     },
     {
       id: 2,
       title: "Samsung Galaxy A33",
       price: "$599",
       description: "  corrupti atque architecto commodi qui, inventore accusantium doloribus dolorem impedit, iste tempora!",
-      Image: Img2,
+      Image: "/assets/product/iphone/16-2.png",
     },
     {
       id: 3,
       title: "Samsung Galaxy A33",
       price: "$599",
       description: "  corrupti atque architecto commodi qui, inventore accusantium doloribus dolorem impedit, iste tempora!",
-      Image: Img3,
+      Image: "/assets/product/iphone/14.png",
     },
     {
       id: 4,
       title: "Samsung Galaxy A33",
       price: "$599",
       description: "  corrupti atque architecto commodi qui, inventore accusantium doloribus dolorem impedit, iste tempora!",
-      Image: Img4,
+      Image: "/assets/product/iphone/15-1.png",
     },
     {
       id: 5,
       title: "Samsung Galaxy A33",
       price: "$599",
       description: "  corrupti atque architecto commodi qui, inventore accusantium doloribus dolorem impedit, iste tempora!",
-      Image: Img5,
+      Image: "/assets/product/iphone/17.png",
     },
     {
       id: 6,
       title: "Samsung Galaxy A33",
       price: "$599",
       description: "  corrupti atque architecto commodi qui, inventore accusantium doloribus dolorem impedit, iste tempora!",
-      Image: Img6,
+      Image: "/assets/product/iphone/18.png",
     },
     {
       id: 7,
       title: "Samsung Galaxy A33",
       price: "$599",
       description: "  corrupti atque architecto commodi qui, inventore accusantium doloribus dolorem impedit, iste tempora!",
-      Image: Img7,
+      Image: "/assets/product/iphone/19.png",
     },
     {
       id: 8,
       title: "Samsung Galaxy A33",
       price: "$599",
       description: "  corrupti atque architecto commodi qui, inventore accusantium doloribus dolorem impedit, iste tempora!",
-      Image: Img8,
+      Image: "/assets/product/iphone/20.png",
     },
  
   ];

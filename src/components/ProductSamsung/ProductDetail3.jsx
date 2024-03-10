@@ -3,31 +3,6 @@ import { useParams } from "react-router-dom";
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
 
-        // import images
-        
-import Img1 from "../../assets/product/Samsung/Laptop-1.png";
-import Img2 from "../../assets/product/Samsung/Laptop-2.png";
-import Img3 from "../../assets/product/Samsung/Laptop-3.png";
-import Img4 from "../../assets/product/Samsung/Laptop-4.png";
-import Img5 from "../../assets/product/Samsung/21.png";
-import Img6 from "../../assets/product/Samsung/22.png";
-import Img7 from "../../assets/product/Samsung/23.png";
-import Img8 from "../../assets/product/Samsung/10.png";
-import Img9 from "../../assets/product/Samsung/9.png";
-import Img10 from "../../assets/product/Samsung/20.png";
-import Img11 from "../../assets/product/Samsung/18.png";
-import Img12 from "../../assets/product/Samsung/13.png";
-import Img13 from "../../assets/product/Samsung/14.png";
-import Img14 from "../../assets/product/Samsung/11.png";
-import Img15 from "../../assets/product/Samsung/12.png";
-import Img16 from "../../assets/product/Samsung/19.png";
-import Img17 from "../../assets/product/Samsung/17.png";
-import Img18 from "../../assets/product/Samsung/16.png";
-import Img19 from "../../assets/product/Samsung/6.png";
-import Img20 from "../../assets/product/Samsung/2.png";
-import Img21 from "../../assets/product/Samsung/7.png";
-import Img22 from "../../assets/product/Samsung/3.png";
-
 const ProductDetail3 = () => {
   const { id } = useParams();
 
@@ -37,154 +12,154 @@ const ProductDetail3 = () => {
       title: "Galaxy Book 3",
       price: " $299",
       description: "Lorem ipsum dolor sit .Lorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sit ",
-      Image: Img1,
+      Image: "/assets/product/Samsung/Laptop-1.png",
     },
     {
       id: 2,
       title: "Galaxy Book3 360 ",
       price: "$949",
       description: "Lorem ipsum dolor sit .Lorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sit ",
-      Image: Img2,
+      Image: "/assets/product/Samsung/Laptop-2.png",
     },
     {
       id: 3,
       title: "Galaxy Book3 pro ",
       price: "$1,099",
       description: "Lorem ipsum dolor sit .Lorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sit ",
-      Image: Img3,
+      Image: "/assets/product/Samsung/Laptop-3.png",
     },
     {
       id: 4,
       title: "Galaxy Book3 360 pro",
       price: "$1,834",
       description: "Lorem ipsum dolor sit .Lorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sit ",
-      Image: Img4,
+      Image: "/assets/product/Samsung/Laptop-4.png",
     },
     {
       id: 5,
       title: "Smart watche Active",
       price: "$250",
       description: "Lorem ipsum dolor sit .Lorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sit ",
-      Image: Img5,
+      Image: "/assets/product/Samsung/21.png",
     },
     {
       id: 6,
       title: "Smart watche ",
       price: "$350",
       description: "Lorem ipsum dolor sit .Lorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sit ",
-      Image: Img6,
+      Image: "/assets/product/Samsung/22.png",
     },
     {
       id: 7,
       title: "Smart watche",
       price: "$400",
       description: "Lorem ipsum dolor sit .Lorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sit ",
-      Image: Img7,
+      Image: "/assets/product/Samsung/23.png",
     },
     {
       id: 8,
       title: "Samsung charger",
       price: "$19 ",
       description: "Lorem ipsum dolor sit .Lorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sit ",
-      Image: Img8,
+      Image: "/assets/product/Samsung/10.png",
     },
     {
       id: 9,
       title: "Power Bank",
     price: "$34",
       description: "Lorem ipsum dolor sit .Lorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sit ",
-      Image: Img9,
+      Image: "/assets/product/Samsung/9.png",
     },
     {
       id: 10,
       title: "Cable",
     price: "$4",
       description: "Lorem ipsum dolor sit .Lorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sit ",
-      Image: Img10,
+      Image: "/assets/product/Samsung/20.png",
     },
     {
       id: 11,
       title: "Galaxy Tab S3",
     price: "$199",
       description: "Lorem ipsum dolor sit .Lorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sit ",
-      Image: Img11,
+      Image: "/assets/product/Samsung/18.png",
     },
     {
       id: 12,
       title: "Galaxy Tab",
     price: "$109",
       description: "Lorem ipsum dolor sit .Lorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sit ",
-      Image: Img12,
+      Image: "/assets/product/Samsung/13.png",
     },
     {
       id: 13,
       title: "Galaxy Tab A7",
     price: "$809",
       description: "Lorem ipsum dolor sit .Lorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sit ",
-      Image: Img13,
+      Image: "/assets/product/Samsung/14.png",
     },
     {
       id: 14,
       title: "Galaxy Note 10",
       price: "$494",
       description: "Lorem ipsum dolor sit .Lorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sit ",
-      Image: Img14,
+      Image: "/assets/product/Samsung/11.png",
     },
     {
       id: 15,
       title: "Galaxy Note 20",
     price: "$599",
       description: "Lorem ipsum dolor sit .Lorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sit ",
-      Image: Img15,
+      Image: "/assets/product/Samsung/12.png",
     },
     {
       id: 16,
       title: "Galaxy A10s",
       price: "$149",
       description: "Lorem ipsum dolor sit .Lorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sit ",
-      Image: Img16,
+      Image: "/assets/product/Samsung/19.png",
     },
     {
       id: 17,
       title: "Galaxy M11",
       price: "$134",
       description: "Lorem ipsum dolor sit .Lorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sit ",
-      Image: Img17,
+      Image: "/assets/product/Samsung/17.png",
     },
     {
       id: 18,
       title: "Galaxy A50",
     price: "$194",
       description: "Lorem ipsum dolor sit .Lorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sit ",
-      Image: Img18,
+      Image: "/assets/product/Samsung/16.png",
     },
     {
       id: 19,
       title: "Galaxy glass",
       price: "$3",
       description: "Lorem ipsum dolor sit .Lorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sit ",
-      Image: Img19,
+      Image: "/assets/product/Samsung/6.png",
     },
     {
       id: 20,
       title: "inpod",
       price: "$10",
       description: "Lorem ipsum dolor sit .Lorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sit ",
-      Image: Img20,
+      Image: "/assets/product/Samsung/2.png",
     },
     {
       id: 21,
       title: "Tab cover",
     price: "$14",
       description: "Lorem ipsum dolor sit .Lorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sit ",
-      Image: Img21,
+      Image: "/assets/product/Samsung/7.png",
     },
     {
       id: 22,
       title: "Galaxy glass",
       price: "$4",
       description: "Lorem ipsum dolor sit .Lorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sit ",
-      Image: Img22,
+      Image: "/assets/product/Samsung/3.png",
     },
   
   ];

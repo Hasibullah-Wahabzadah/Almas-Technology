@@ -1,14 +1,6 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 
-import Img1 from "../../assets/product/Samsung/p1.png";
-import Img2 from "../../assets/product/Samsung/p2.png";
-import Img3 from "../../assets/product/Samsung/p3.png";
-import Img4 from "../../assets/product/Samsung/p4.png";
-import Img5 from "../../assets/product/Samsung/Tab-1.png";
-import Img6 from "../../assets/product/Samsung/Tab-2.png";
-import Img7 from "../../assets/product/Samsung/Tab-3.png";
-import Img8 from "../../assets/product/Samsung/Tab-4.png";
 
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
@@ -23,7 +15,7 @@ const ProductDetail4 = () => {
       price: "$1200",
       description:
         " adipisicing elit. Provident fugit nesciunt saepe magni corrupti atque architecto commodi qui, inventore accusantium doloribus dolorem impedit, iste tempora!",
-      Image: Img1,
+      Image: "/assets/product/Samsung/p1.png",
     },
     {
       id: 2,
@@ -31,7 +23,7 @@ const ProductDetail4 = () => {
       price: "$599",
       description:
         " adipisicing elit. Provident fugit nesciunt saepe magni corrupti atque architecto commodi qui, inventore accusantium doloribus dolorem impedit, iste tempora!",
-      Image: Img2,
+      Image: "/assets/product/Samsung/p2.png",
     },
     {
       id: 3,
@@ -39,7 +31,7 @@ const ProductDetail4 = () => {
       price: "$599",
       description:
         " adipisicing elit. Provident fugit nesciunt saepe magni corrupti atque architecto commodi qui, inventore accusantium doloribus dolorem impedit, iste tempora!",
-      Image: Img3,
+      Image: "/assets/product/Samsung/p3.png",
     },
     {
       id: 4,
@@ -47,7 +39,7 @@ const ProductDetail4 = () => {
       price: "$599",
       description:
         " adipisicing elit. Provident fugit nesciunt saepe magni corrupti atque architecto commodi qui, inventore accusantium doloribus dolorem impedit, iste tempora!",
-      Image: Img4,
+      Image: "/assets/product/Samsung/p4.png",
     },
     {
       id: 5,
@@ -55,7 +47,7 @@ const ProductDetail4 = () => {
       price: "$599",
       description:
         " adipisicing elit. Provident fugit nesciunt saepe magni corrupti atque architecto commodi qui, inventore accusantium doloribus dolorem impedit, iste tempora!",
-      Image: Img5,
+      Image: "/assets/product/Samsung/Tab-1.png",
     },
     {
       id: 6,
@@ -63,7 +55,7 @@ const ProductDetail4 = () => {
       price: "$599",
       description:
         " adipisicing elit. Provident fugit nesciunt saepe magni corrupti atque architecto commodi qui, inventore accusantium doloribus dolorem impedit, iste tempora!",
-      Image: Img6,
+      Image: "/assets/product/Samsung/Tab-2.png",
     },
     {
       id: 7,
@@ -71,7 +63,7 @@ const ProductDetail4 = () => {
       price: "$599",
       description:
         " adipisicing elit. Provident fugit nesciunt saepe magni corrupti atque architecto commodi qui, inventore accusantium doloribus dolorem impedit, iste tempora!",
-      Image: Img7,
+      Image: "/assets/product/Samsung/Tab-3.png",
     },
     {
       id: 8,
@@ -79,7 +71,7 @@ const ProductDetail4 = () => {
       price: "$599",
       description:
         " adipisicing elit. Provident fugit nesciunt saepe magni corrupti atque architecto commodi qui, inventore accusantium doloribus dolorem impedit, iste tempora!",
-      Image: Img8,
+      Image: "/assets/product/Samsung/Tab-4.png",
     },
   ];
 

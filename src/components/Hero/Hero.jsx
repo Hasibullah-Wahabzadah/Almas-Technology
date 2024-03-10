@@ -1,27 +1,24 @@
 import React from "react";
 import Slider from "react-slick";
-import Image2 from "../../assets/hero/phone-2.png";
-import Image1 from "../../assets/hero/headphone.png";
-import Image3 from "../../assets/hero/macbook.png";
-// import Button from "../Shared/Button";
+
 const HeroData = [
   {
     id: 2,
-    img: Image2,
+    img: "/assets/hero/phone-2.png",
     subtitle: "Best",
     title: "Branded",
     title2: "iPhone",
   },
   {
     id: 1,
-    img: Image3,
+    img: "/assets/hero/macbook.png",
     subtitle: "Best",
     title: "Branded",
     title2: "Laptops",
   },
   {
     id: 1,
-    img: Image1,
+    img: "/assets/hero/headphone.png",
     subtitle: "Best",
     title: "Branded",
     title2: "Headphone",

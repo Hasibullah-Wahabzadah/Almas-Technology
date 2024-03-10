@@ -11,12 +11,8 @@ const ProductsData = ({ data }) => {
       <div className="grid grid-cols-1 sm:grid-col-2 md:grid-cols-2 lg:grid-cols-4 gap-9 place-items-center ">
         {/* card section */}
         {data.map((data) => (
-          <div 
-          
-          key={data.id} className="hover:scale-110 duration-500 group ">
-            <div
-            
-            className="relative ">
+          <div key={data.id} className="hover:scale-110 duration-500 group ">
+            <div className="relative ">
               <img
                 src={data.img}
                 alt=""
@@ -27,12 +23,15 @@ const ProductsData = ({ data }) => {
                 className="hidden absolute top-1/2 -translate-y-1/2 left-1/2  -translate-x-1/2 h-full w-full text-center group-hover:flex
              justify-center items-center duration-200 group-hover:backdrop-blur-sm"
               >
-                <Link to={`/product3/${data.id}`}>
-                <Button
-                  text={"see"}
-                  bgColor={"bg-primary"}
-                  textColor={"text-white"}
-                />
+                <Link
+                  onClick={() => window.scroll(0, 0)}
+                  to={`/product3/${data.id}`}
+                >
+                  <Button
+                    text={"see"}
+                    bgColor={"bg-primary"}
+                    textColor={"text-white"}
+                  />
                 </Link>
               </div>
             </div>
@@ -44,20 +43,20 @@ const ProductsData = ({ data }) => {
                 {data.title1}
               </h2> */}
               <div className="flex">
-              <h2 className="font-bold hover:scale-105 duration-300 pr-[90px]">
-                {data.price}
-              </h2>
-              {Array.from({length:starCount}, (index) => (<FaStar className="text-brandYellow inline-block mt-1" key={index}/>))
-                
-              }
+                <h2 className="font-bold hover:scale-105 duration-300 pr-[90px]">
+                  {data.price}
+                </h2>
+                {Array.from({ length: starCount }, (index) => (
+                  <FaStar
+                    className="text-brandYellow inline-block mt-1"
+                    key={index}
+                  />
+                ))}
               </div>
-              
             </div>
           </div>
-          
         ))}
       </div>
-     
     </div>
   );
 };

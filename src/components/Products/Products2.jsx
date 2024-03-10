@@ -5,16 +5,6 @@ import { FaStar } from "react-icons/fa6";
 
 import "./ImageButton.css";
 
-// images import
-import Image from "../../assets/product/iphone/2.png";
-import Img1 from "../../assets/product/iphone/16-1.png";
-import Img2 from "../../assets/product/iphone/16-2.png";
-import Img3 from "../../assets/product/iphone/14.png";
-import Img4 from "../../assets/product/iphone/15-1.png";
-import Img5 from "../../assets/product/iphone/17.png";
-import Img6 from "../../assets/product/iphone/18.png";
-import Img7 from "../../assets/product/iphone/19.png";
-import Img8 from "../../assets/product/iphone/20.png";
 
 import { Link } from "react-router-dom";
 import Samsung from "../ProductApple/Apple";
@@ -22,54 +12,53 @@ import Samsung from "../ProductApple/Apple";
 const ProductData = [
   {
     id: 1,
-    img: Img1,
+    img: "/assets/product/iphone/16-1.png",
     title: "iphone 11 pro max",
     price: "$400",
   },
   {
     id: 2,
-    img: Img2,
+    img: "/assets/product/iphone/16-2.png",
     title: "iphone 13 pro max",
     price: "$699",
   },
   {
     id: 3,
-    img: Img3,
+    img: "/assets/product/iphone/14.png",
     title: "iphone 14 pro max",
     price: "$899",
   },
   {
     id: 4,
-    img: Img4,
+    img: "/assets/product/iphone/15-1.png",
     title: "iphone 15 pro max",
     price: "$999",
   },
   {
     id: 5,
-    img: Img5,
+    img: "/assets/product/iphone/17.png",
     title: "ipad Air",
     price: "$599",
   },
   {
     id: 6,
-    img: Img6,
+    img: "/assets/product/iphone/18.png",
     title: "ipad pro M2",
     price: "$1,099",
   },
   {
     id: 7,
-    img: Img7,
+    img: "/assets/product/iphone/19.png",
     title: "ipad pro",
     price: "$799",
   },
   {
     id: 8,
-    img: Img8,
+    img: "/assets/product/iphone/20.png",
     title: "ipad 9th",
     price: "$329 ",
   },
 ];
-
 
 const Products2 = ({ data }) => {
   const starCount = 5;
@@ -83,15 +72,13 @@ const Products2 = ({ data }) => {
         <ProductsDatac data={ProductData} />
         {/* <ProductsDatac data={ProductData2} /> */}
         {/* <ProductsData data={ProductData3} /> */}
-        <div className="containers container "
-       
-        >
+        <div className="containers container ">
           <img
-            src={Image}
+            src={"/assets/product/iphone/2.png"}
             alt="Snow"
             className=" opacity-50 object-cover rounded-xl hero-bg-color h-[230px] w-[230px]"
           />
-          <Link to="/Apple">
+          <Link onClick={() => window.scroll(0, 0)} to="/Apple">
             <button className="btn ml-[120px] sm:ml-[100px] lg:ml-[120px]">
               <span>More items</span>
             </button>

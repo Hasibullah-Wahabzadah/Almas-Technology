@@ -4,69 +4,56 @@ import ProductsData from "./ProductsData";
 import { Link } from "react-router-dom";
 import { FaStar } from "react-icons/fa6";
 
-// images import
-import Images from "../../assets/product/Samsung/Laptop-2.png";
-import Img1 from "../../assets/product/Samsung/p1.png";
-import Img2 from "../../assets/product/Samsung/p2.png";
-import Img3 from "../../assets/product/Samsung/p3.png";
-import Img4 from "../../assets/product/Samsung/p4.png";
-import Img5 from "../../assets/product/Samsung/Tab-1.png";
-import Img6 from "../../assets/product/Samsung/Tab-2.png";
-import Img7 from "../../assets/product/Samsung/Tab-3.png";
-import Img8 from "../../assets/product/Samsung/Tab-4.png";
-
-
 const ProductData = [
   {
     id: 1,
-    img: Img1,
+    img: "/assets/product/Samsung/p1.png",
     title: "Galaxy S21 Ultra",
     price: "$500",
   },
   {
     id: 2,
-    img: Img2,
+    img: "/assets/product/Samsung/p2.png",
     title: "Galaxy A33",
     price: "$299",
   },
   {
     id: 3,
-    img: Img3,
+    img: "/assets/product/Samsung/p3.png",
     title: "Galaxy Note 9",
     price: "$300",
   },
   {
     id: 4,
-    img: Img4,
+    img: "/assets/product/Samsung/p4.png",
     title: "Galaxy S22 Ultra",
     price: "$700",
   },
   {
     id: 5,
-    img: Img5,
+    img: "/assets/product/Samsung/Tab-1.png",
     title: "Galaxy Tab A8",
     price: "$599",
   },
   {
     id: 6,
-    img: Img6,
+    img: "/assets/product/Samsung/Tab-2.png",
     title: "Galaxy Tab A9",
     price: "$700",
   },
   {
     id: 7,
-    img: Img7,
+    img: "/assets/product/Samsung/Tab-3.png",
     title: "Galaxy Tab S7",
     price: "$575",
   },
   {
     id: 8,
-    img: Img8,
+    img: "/assets/product/Samsung/Tab-4.png",
     title: "Galaxy S6",
     price: "$540",
   },
 ];
-
 
 const Products = ({ data }) => {
   const starCount = 5;
@@ -77,18 +64,14 @@ const Products = ({ data }) => {
         <Header title={"Our Products"} subtitle={" ---< Samsung >---"} />
         {/* Body section */}
         <ProductsData data={ProductData} />
-       
 
-        <div 
-       
-        className="containers container ">
+        <div className="containers container ">
           <img
-          
-            src={Images}
+            src={"/assets/product/Samsung/Laptop-2.png"}
             alt="Snow"
             className=" opacity-50 object-cover rounded-xl hero-bg-color h-[230px] w-[230px]"
           />
-          <Link to="/Samsung">
+          <Link onClick={() => window.scroll(0, 0)} to="/Samsung">
             <button className="btn ml-[120px] sm:ml-[100px] lg:ml-[120px]">
               <span>More items</span>
             </button>

@@ -1,5 +1,5 @@
 import React from "react";
-import phone from "../../assets/Banner/phone-c.png";
+import phone from "/assets/Banner/phone-c.png";
 // import Button from "../Shared/Button";
 
 const BannerData = [

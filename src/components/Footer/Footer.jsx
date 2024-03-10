@@ -127,9 +127,8 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className=" text-black dark:text-white pt-3 pb-3 text-2xl sm:text-x flex justify-center hero-bg-color1">
-        <i className="text-xl sm:text-2xl"> &copy; </i>
-
+      <div className=" text-black dark:text-white pt-3 pb-3  flex justify-center hero-bg-color1">
+        <i className="text-xl sm:text-2xl"> <span > &copy; </span></i>
         <p className="text-[16px] sm:text-[22px]">
           2024 Developer Hasibullah Wahabzadah | All rights reserved
         </p>

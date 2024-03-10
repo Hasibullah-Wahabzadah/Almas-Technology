@@ -1,5 +1,5 @@
 import React from "react";
-import backgroundImage from "../../assets/LandingPage/2.png"; // مسیر تصویر
+
 
 const LandingPage = () => {
   return (
@@ -16,7 +16,7 @@ const LandingPage = () => {
         <div className="relative">
           <img
            
-            src={backgroundImage} // استفاده از مسیر تصویر
+            src={"/assets/LandingPage/2.png"} // استفاده از مسیر تصویر
             alt="Mobile and computer equipment  " // متن جایگزین برای تصویر
             className="w-[530px]  drop-shadow-[-8px_4px_6px_rgba(0,0,0,0.4)]"
           />

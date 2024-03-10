@@ -5,6 +5,7 @@ import "./Navbars.css";
 import DarkMode from "./DarkMode";
 import onClickOutside from "react-click-outside";
 
+//MenuLinks
 const MenuLinks = [
   {
     id: 1,
@@ -17,6 +18,7 @@ const MenuLinks = [
     link: "/#shop",
   },
   {
+
     id: 3,
     Link: "About",
     link: "/#footer",
@@ -28,6 +30,7 @@ const MenuLinks = [
   },
 ];
 
+//Dropdow 
 const DropdownLinks = [
   {
     id: 1,
@@ -46,22 +49,14 @@ const DropdownLinks = [
   },
 ];
 
-const Navbar = ({ handleOrderPopup }) => {
+const Navbar = () => {
+
+  //this  is for mobile view dropdown menu
   const [value, setValue] = useState("");
   const onChange = (event) => {
     setValue(event.target.value);
   };
-  const onSearch = (serachTerm) => {
-    console.log("search", serachTerm);
-  };
-
   const [isBurgerOpen, setIsBurgerOpen] = useState(false);
-  const [language, setLanguage] = useState("en");
-
-  const handleLanguageChange = (e) => {
-    setLanguage(e.target.value);
-  };
-
   const toggleBurgerMenu = () => {
     setIsBurgerOpen(!isBurgerOpen);
   };
@@ -72,14 +67,15 @@ const Navbar = ({ handleOrderPopup }) => {
     }
   };
 
+  // this  will add an event listener to the document object so that when we click outside of our component, it
   const BurgerMenu = () => (
-    <div className="lg:hidden absolute top-[70px] left-0 bg-white dark:bg-gray-950 py-[105px] px-[70px] ">
+    <div className="lg:hidden absolute top-[109px] h-[900px] left-0 bg-white dark:bg-gray-950 bg-opacity-90 dark:bg-opacity-70 py-[105px] px-[70px] ">
       <ul className="flex flex-col items-center gap-4 md:flex md:items-center">
         {MenuLinks.map((data, index) => (
           <li key={index}>
             <a
               href={data.link}
-              className="inline-block px-4 font-semibold text-gray-500 hover:text-black dark:hover:text-white duration-200"
+              className="inline-block px-4 font-semibold  text-black dark:text-white "
             >
               {data.Link}
             </a>
@@ -103,7 +99,7 @@ const Navbar = ({ handleOrderPopup }) => {
               {DropdownLinks.map((data, index) => (
                 <li key={index}>
                   <a
-                    className="text-gray-500  dark:hover:text-white duration-200 inline-block w-full p-2 hover:bg-primary/20 rounded-md font-semibold"
+                    className=" text-black dark:text-white  inline-block w-full p-2 hover:bg-primary/20 rounded-md font-semibold"
                     href={data.link}
                   >
                     {data.Link}
@@ -123,7 +119,7 @@ const Navbar = ({ handleOrderPopup }) => {
             onChange={onChange}
           />
           <IoMdSearch
-            onClick={() => onSearch(value)}
+            
             className="text-xl text-gray-600 group-hover:text-primary
                dark:text-gray-400 absolute top-1/2 -translate-y-1/2 right-3 duration-200"
           />
@@ -225,8 +221,7 @@ const Navbar = ({ handleOrderPopup }) => {
                 id=""
                 className="bg-white dark:bg-gray-900  flex items-center
               text-gray-500  dark:hover:text-white duration-200 rounded-md font-semibold"
-                value={language}
-                onChange={handleLanguageChange}
+               
               >
                 <option value="English">En</option>
                 <option value="Farse">Fa</option>

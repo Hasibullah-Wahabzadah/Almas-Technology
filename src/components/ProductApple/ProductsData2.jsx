@@ -2,7 +2,7 @@ import React from "react";
 // import Button from "../Shared/Button";
 import { FaStar } from "react-icons/fa";
 import Button from "../Shared/Button";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 const ProductsData2 = ({ data }) => {
   const starCount = 5;
 
@@ -11,9 +11,7 @@ const ProductsData2 = ({ data }) => {
       <div className="grid grid-cols-1 sm:grid-col-2 md:grid-cols-2 lg:grid-cols-4 gap-9 place-items-center ">
         {/* card section */}
         {data.map((data) => (
-          <div key={data.id} className="hover:scale-110 duration-500 group "
-         
-          >
+          <div key={data.id} className="hover:scale-110 duration-500 group ">
             <div className="relative">
               <img
                 src={data.img}
@@ -25,7 +23,10 @@ const ProductsData2 = ({ data }) => {
                 className="hidden absolute top-1/2 -translate-y-1/2 left-1/2  -translate-x-1/2 h-full w-full text-center group-hover:flex
              justify-center items-center duration-200 group-hover:backdrop-blur-sm"
               >
-                <Link to={`/product1/${data.id}`}>
+                <Link
+                  onClick={() => window.scroll(0, 0)}
+                  to={`/product1/${data.id}`}
+                >
                   <Button
                     text={"see"}
                     bgColor={"bg-primary"}

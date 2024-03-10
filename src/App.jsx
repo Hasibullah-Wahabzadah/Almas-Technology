@@ -18,7 +18,7 @@ import ProductDetail5 from "./components/Products/ProductDetail5";
 // import AOS from "aos";
 // import "aos/dist/aos.css";
 const App = () => {
-
+  
   // React.useEffect(() => {
   //   AOS.init({
   //     duration: 800,
@@ -29,12 +29,8 @@ const App = () => {
   //   AOS.refresh();
   // }, []);
 
-
   return (
-
-    
     <Router>
-      
       <Routes>
         <Route exact path="/" element={<Pages />} />
         <Route path="/Category" element={<Category />} />
@@ -46,11 +42,9 @@ const App = () => {
         <Route path="/Products" element={<Products />} />
         <Route path="/Samsung" element={<Samsung />} />
         <Route path="/product2/:id" element={<ProductDetail3 />} />
-
-        <Route path="ProductsData" element={<ProductsData/>}/>
+        <Route path="ProductsData" element={<ProductsData />} />
         <Route path="/product3/:id" element={<ProductDetail4 />} />
-
-        <Route path="/ProductsDatac" element={<ProductsDatac/>}/>
+        <Route path="/ProductsDatac" element={<ProductsDatac />} />
         <Route path="/product4/:id" element={<ProductDetail5 />} />
       </Routes>
     </Router>
