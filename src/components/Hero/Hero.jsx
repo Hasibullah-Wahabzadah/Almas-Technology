@@ -71,7 +71,7 @@ const Hero = ({ handleOrderPopup }) => {
                      
                       className="text-5xl uppercase text-white dark:text-white/5
                     sm:text-[70px] md:text-[80px] xl:text-[150px] font-bold"
-                    >
+                    >   
                       {data.title2}
                     </h1>
                     {/* <div>

@@ -11,6 +11,7 @@ import Products from "./components/Products/Products";
 import Products2 from "./components/Products/Products2";
 import Brands from "./components/Brands/Brands";
 import Footer from "./components/Footer/Footer";
+import Contact from "./components/Footer/Contact";
 
 const Pages = () => {
   return (
@@ -29,6 +30,7 @@ const Pages = () => {
       <Banner2 />
       <Products2 />
       <Brands />
+      <Contact/>
       <Footer />
     </div>
   );
